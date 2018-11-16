@@ -3,3 +3,16 @@
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
+img {
+	margin: 1rem;
+	border: .35rem solid green;
+}
+.next {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.newDiv {
+	border: .35rem solid green;
+	margin: 1rem;
+}
