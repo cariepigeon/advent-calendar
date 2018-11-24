@@ -7,9 +7,10 @@ body {
 /*Header--------------------------------------*/
 .header {
 	margin: 0;
+	margin-top: .35rem;
+	padding-top: .35rem;
 	font-size: 1rem;
 	background: #41b14f;
-	//border-radius: 1rem;
 	text-align: center;
 }
 h1 {
@@ -29,6 +30,7 @@ h2 {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		padding-top: 0;
 		font-size: 1.25rem;
 		margin-left: .5rem;
 		margin-right: .5rem;
@@ -77,8 +79,10 @@ img {
 	margin: 1rem;
 	margin-right: auto;
 	margin-left: auto;
+	padding: .5rem;
 	order: 2;
 	width: 200px;
 	height:200px;
 	font-size: 1.5rem;
+	background-color:#41b14f;
 }
