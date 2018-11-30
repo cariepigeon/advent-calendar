@@ -2,6 +2,9 @@
 var now = new Date();
 var today = now.getDate();
 var month = now.getMonth();
+if (today > 25) {
+	today = 25;
+}
 //console.log(today);
 
 //make sure it's december
@@ -66,7 +69,7 @@ $.ajax({
   });
 
 /*------------------------------------------------*/
-if (month == 11) {
+if (month === 11) {
 	giphys();
 	attachDivs(div);
 }
