@@ -16,6 +16,9 @@ body {
 	background: #41b14f;
 	text-align: center;
 }
+p b {
+	font-size: 1.5rem;
+}
 h1 {
 	padding: 0px;
 	margin: 0px;
