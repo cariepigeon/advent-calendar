@@ -11,7 +11,7 @@ if (today > 25) {
 /*if (month == 11) {*/
 /*get as many giphys as how many days have passed this month*/
 function giphys() {
-	var base = "http://api.giphy.com/v1/gifs/search?q=christmas+story&api_key=zQS6Q69ZYfhp91Rwql4VGCufzkzT0yar&limit=" + today + "";
+	var base = "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/search?q=christmas+story&api_key=zQS6Q69ZYfhp91Rwql4VGCufzkzT0yar&limit=" + today + "";
 	var xhr = $.get(base);
 	//var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=elf+christmas&api_key=zQS6Q69ZYfhp91Rwql4VGCufzkzT0yar&limit=30");
 	xhr.done(function(response) { 
